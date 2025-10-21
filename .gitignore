@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.log
+
+# Jupyter / data
+.ipynb_checkpoints/
+*.sqlite3
+*.db
+data/*.csv
+data/*.parquet
+data/*.json
+!data/README.md
+
+# Build/Dist
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models / large binaries
+models/
+*.pkl
+*.h5
+*.onnx
+
+# Env files
+.env
+*.env

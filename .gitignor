@@ -1,0 +1,23 @@
+﻿# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Streamlit cache (optional)
+.streamlit/
+
+# Data/models (optional)
+*.pkl
+*.csv
+data/
+models/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
